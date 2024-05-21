@@ -96,3 +96,23 @@
   border-radius: 8px;
   justify-content: space-between;
 }
+.btn-secondary {
+  background-color: var(--secondaryColor);
+  color: #fff;
+  border-color: var(--secondaryColor);
+  padding: 10px 2.2rem;
+}
+
+.btn-secondary:hover {
+  background-color: transparent;
+  border-color: var(--secondaryColor);
+  color: var(--darkBlue);
+}
+._banner-img {
+  position: relative;
+  right: -65px;
+}
+
+.banner-text h1 {
+  font-size: 60px;
+}
