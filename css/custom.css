@@ -118,9 +118,9 @@
 }
 
 .product-card {
-  border: 1px solid #ddd;
+  border: 0px solid #ddd;
   border-radius: 5px;
-  padding: 15px;
+  padding: 0px;
   margin: 0px;
 }
 .product-card img {
@@ -130,4 +130,66 @@
 }
 .product-card .card-body {
   padding: 10px;
+}
+
+.product-carrousel .owl-nav {
+  position: absolute;
+  top: -70px;
+  right: 0;
+  margin-top: 0;
+}
+.owl-nav > button {
+  background-color: #f5f5f5 !important;
+  border-radius: 50% !important;
+  width: 46px;
+  height: 46px;
+}
+.owl-nav > button button:hover {
+  background: transparent !important;
+}
+
+.sale-tag {
+  top: 12px;
+  left: 12px;
+  background: var(--primaryColor);
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+.product-img-btn {
+  top: 12px;
+  right: 12px;
+  background: white;
+  border: 0;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-view {
+  top: 55px;
+}
+
+.text-darkBlue {
+  color: var(--darkBlue);
+}
+
+.product-excerpt {
+  color: #2e526b;
+}
+.text-primary {
+  color: var(--primaryColor);
+}
+
+.btn-outline-primary {
+  border-color: var(--primaryColor);
+  color: var(--primaryColor);
+}
+.btn-outline-primary:hover {
+  border-color: var(--primaryColor);
+  background-color: var(--primaryColor);
+  color: #fff;
 }
