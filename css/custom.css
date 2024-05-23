@@ -108,6 +108,17 @@
   border-color: var(--secondaryColor);
   color: var(--darkBlue);
 }
+.btn-primary {
+  background-color: var(--primaryColor);
+  color: #fff;
+  border-color: var(--primaryColor);
+  padding: 10px 2.2rem;
+}
+.btn-primary:hover {
+  background-color: transparent;
+  border-color: var(--primaryColor);
+  color: var(--darkBlue);
+}
 ._banner-img {
   position: relative;
   right: -65px;
