@@ -243,3 +243,52 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
 }
+.promises-cont {
+  min-height: 530px;
+  position: relative;
+  margin-top: -100px;
+}
+.promises-curve {
+  position: absolute;
+}
+.promise-box-cont {
+  display: flex;
+  justify-content: space-around;
+}
+.promise-box-cont .promise-box {
+  width: 280px;
+  position: relative;
+}
+.promise-box.promise1 {
+  top: 250px;
+}
+.promise-box-cont .promise-box .promise-no {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.promise-box.promise2 {
+  top: 164px;
+}
+.promise-box.promise3 {
+  top: -24px;
+}
+.promise-box-cont .promise-box .rect-icn {
+  margin-bottom: 20px;
+}
+/* Responsive */
+@media (max-width: 768px) {
+  ._banner {
+    flex-direction: column;
+    gap: 60px;
+    padding-top: 60px;
+  }
+  ._banner-img img {
+    width: 100%;
+  }
+  ._banner-img {
+    position: relative;
+    right: 0;
+    width: 100%;
+  }
+}
