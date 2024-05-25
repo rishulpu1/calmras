@@ -5,6 +5,7 @@
   --darkBlue: #213848;
   --darkGray: #323232;
   --lightGray: #e5e5e5e0;
+  --bg-blue: #2e526b;
 }
 /* Fonts */
 .poppins-bold-italic {
@@ -275,6 +276,30 @@
 }
 .promise-box-cont .promise-box .rect-icn {
   margin-bottom: 20px;
+}
+.couples-cont {
+  background-color: var(--bg-blue);
+  color: #fff;
+}
+.couples-txt {
+  width: 300px;
+  margin: 40px;
+}
+.inner-div {
+  justify-content: space-between;
+  align-items: center;
+}
+.couples-images .curve {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+}
+.couples-images .curve img {
+  width: 100%;
+}
+.couple-img {
+  position: relative;
+  z-index: 2;
 }
 /* Responsive */
 @media (max-width: 768px) {
