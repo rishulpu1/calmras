@@ -215,12 +215,6 @@
   background-color: var(--secondaryColor);
   color: #fff;
 }
-.bg-secondary {
-  background-color: var(--secondaryColor) !important;
-}
-.text-secondary {
-  color: var(--secondaryColor) !important;
-}
 
 .user-reviews {
   background-color: #f4f7fa;
@@ -301,6 +295,57 @@
   position: relative;
   z-index: 2;
 }
+.mens-collection{
+  position: relative;
+}
+.mens-collection ._txt{
+  width: 255px;
+}
+.mens-collection ._txt h3 {
+	font-size: 24px;
+}
+.mens-collection ._img img {
+	width: 96%;
+}
+.mens-collection ._img {
+	margin-top: -60px;
+  text-align: center;
+}
+.womens-collection {
+	display: flex;
+  align-items: center;
+}
+.womens-collection ._txt {
+	width: 300px;
+	margin-left: 40px;
+}
+.other-collections p {
+	font-size: 14px;
+}
+.other-collections h3 {
+	font-size: 24px;
+}
+.womens-collection img {
+	width: 100%;
+}
+.under-19 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.bg-primary{
+  background-color: var(--primaryColor) !important;
+}
+.bg-secondary {
+  background-color: var(--secondaryColor) !important;
+}
+.bg-blue{
+  background-color: var(--bg-blue);
+}
+.text-secondary {
+  color: var(--secondaryColor) !important;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   ._banner {
