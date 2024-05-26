@@ -352,6 +352,49 @@
 .testimonials {
   background-color: #f4f7fa;
 }
+
+.main-footer {
+	background-color: #1A2033;
+	color: #fff;
+	margin-top: 4pc;
+	padding: 120px 0 40px 0;
+}
+.main-footer a {
+	text-decoration: none;
+	color: #fff;
+}
+.footer-links ul {
+	list-style: none;
+	padding: 0;
+}
+.footer-links h4, .subscribe h4 {
+	font-size: 18px;
+	font-weight: 600;
+}
+.footer-links ul a {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.footer-links ul li {
+	line-height: 30px;
+}
+.subscribe p {
+	font-size: 14px;
+}
+.copy-cont {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.copy-cont p {
+	margin-bottom: 0;
+}
+.socio {
+	display: flex;
+	gap: 10px;
+}
+
 .bg-primary {
   background-color: var(--primaryColor) !important;
 }
