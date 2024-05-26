@@ -295,51 +295,70 @@
   position: relative;
   z-index: 2;
 }
-.mens-collection{
+.mens-collection {
   position: relative;
 }
-.mens-collection ._txt{
+.mens-collection ._txt {
   width: 255px;
 }
 .mens-collection ._txt h3 {
-	font-size: 24px;
+  font-size: 24px;
 }
 .mens-collection ._img img {
-	width: 96%;
+  width: 96%;
 }
 .mens-collection ._img {
-	margin-top: -60px;
+  margin-top: -60px;
   text-align: center;
 }
 .womens-collection {
-	display: flex;
+  display: flex;
   align-items: center;
 }
 .womens-collection ._txt {
-	width: 300px;
-	margin-left: 40px;
+  width: 300px;
+  margin-left: 40px;
 }
 .other-collections p {
-	font-size: 14px;
+  font-size: 14px;
 }
 .other-collections h3 {
-	font-size: 24px;
+  font-size: 24px;
 }
 .womens-collection img {
-	width: 100%;
+  width: 100%;
 }
 .under-19 {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.bg-primary{
+.feature-box {
+  text-align: center;
+}
+.feature-box ._img {
+  background-color: var(--primaryColor);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin-bottom: 20px;
+  border: 10px solid rgba(194, 238, 254, 1);
+  padding: 10px;
+}
+.feature-box h4 {
+  font-size: 20px;
+}
+.testimonials {
+  background-color: #f4f7fa;
+}
+.bg-primary {
   background-color: var(--primaryColor) !important;
 }
 .bg-secondary {
   background-color: var(--secondaryColor) !important;
 }
-.bg-blue{
+.bg-blue {
   background-color: var(--bg-blue);
 }
 .text-secondary {
