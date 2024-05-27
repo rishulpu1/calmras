@@ -66,8 +66,8 @@
 .search-field:focus {
   outline: none;
   box-shadow: none;
-  width: 180px;
-  transition: all 300ms ease-in-out;
+  /* width: 180px;
+  transition: all 300ms ease-in-out; */
 }
 .cart-counter {
   position: absolute;
@@ -439,7 +439,16 @@ header .nav {
   flex: 0 0 auto !important;
 }
 /* Responsive */
-@media (max-width: 768px) {
+@media(max-width: 1200px){
+  ._stars img {
+    width: 12px;
+  }
+  .rev-count {
+    font-size: 12px;
+  }
+  .product-excerpt{
+    font-size: 14px;
+  }
   ._banner {
     flex-direction: column;
     gap: 60px;
@@ -447,10 +456,21 @@ header .nav {
   }
   ._banner-img img {
     width: 100%;
+    max-width: 500px;
   }
   ._banner-img {
     position: relative;
     right: 0;
     width: 100%;
+    text-align: center;
   }
+  .banner-text.ps-5 {
+    padding-left: 0px !important;
+  }
+  .banner-text h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  
 }
