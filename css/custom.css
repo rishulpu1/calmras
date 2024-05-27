@@ -59,9 +59,15 @@
 .bg-lightGray {
   background-color: var(--lightGray);
 }
+.search-field,
+.search-field-cont {
+  transition: all 300ms ease-in-out;
+}
 .search-field:focus {
   outline: none;
   box-shadow: none;
+  width: 180px;
+  transition: all 300ms ease-in-out;
 }
 .cart-counter {
   position: absolute;
@@ -428,6 +434,9 @@
 }
 .input-group .btn-secondary {
   padding: 10px 1.3rem;
+}
+header .nav {
+  flex: 0 0 auto !important;
 }
 /* Responsive */
 @media (max-width: 768px) {
