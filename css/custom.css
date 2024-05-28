@@ -439,14 +439,36 @@ header .nav {
   flex: 0 0 auto !important;
 }
 /* Responsive */
-@media(max-width: 1200px){
+@media (max-width: 1400px) {
+  .promise-box.promise3 {
+    top: 77px;
+  }
+  .promise-box.promise2 {
+    top: 180px;
+  }
+  .womens-collection ._txt {
+    padding: 20px 0;
+  }
+  .womens-collection ._img {
+    align-self: end;
+  }
+  .mens-collection ._img img {
+    width: 100%;
+  }
+  .mens-collection ._img {
+    margin-top: -6px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1200px) {
   ._stars img {
     width: 12px;
   }
   .rev-count {
     font-size: 12px;
   }
-  .product-excerpt{
+  .product-excerpt {
     font-size: 14px;
   }
   ._banner {
@@ -470,7 +492,93 @@ header .nav {
   .banner-text h1 {
     font-size: 40px;
   }
+  .promises-curve svg {
+    width: 100%;
+  }
+  .promise-box.promise3 {
+    top: 120px;
+  }
+  .promise-box.promise1 {
+    top: 224px;
+  }
+  .couples-images {
+    align-self: end;
+  }
+  .couple-img img {
+    width: 100%;
+  }
+  .lgbt ._img img {
+    width: 80%;
+  }
+  .mens-collection ._img {
+    margin-top: 0;
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  .promises-curve {
+    position: absolute;
+    display: none;
+  }
+  .promise-box-cont {
+    flex-direction: column;
+  }
+  .promise-box-cont .promise-box {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: inset 9px 8px 58px #ccc;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  .promise-box-cont .promise-box .promise-no {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  .promise-box.promise1,
+  .promise-box.promise2,
+  .promise-box.promise3 {
+    top: 0;
+  }
+  .promises-cont {
+    min-height: auto;
+    position: relative;
+    margin-top: 40px;
+  }
+  .couples-txt {
+    width: 100%;
+    margin: 40px;
+    text-align: center;
+    padding: 10px;
+  }
+  .couples-cont .inner-div {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .couples-cont {
+    background-color: var(--bg-blue);
+    color: #fff;
+    max-width: 100%;
+    border-radius: 0 !important;
+  }
+  .lgbt ._img img {
+    width: 100%;
+  }
 }
 @media (max-width: 768px) {
-  
+  .under-19 {
+    padding-bottom: 20px;
+  }
+  .main-footer {
+    padding: 60px 0 40px 0;
+  }
+  .copy-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
 }
