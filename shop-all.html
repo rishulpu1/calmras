@@ -115,859 +115,1352 @@
     </header>
     <!-- End Header -->
     <main>
-        <!-- Categories -->
-        <section class="container _categories">
-            <div
-                class="d-flex flex-column flex-lg-row justify-content-md-center py-4 gap-3 gap-xl-5 _categories_box-cont">
-                <div class="_categories_box">
-                    <a href="#" class="text-center">
-                        <img src="./images/massagers.png" alt="Massagers" />
-                        <h3 class="poppins-regular">Massagers</h3>
-                    </a>
-                </div>
-                <div class="_categories_box">
-                    <a href="#" class="text-center">
-                        <img src="./images/bundles.png" alt="Massagers" />
-                        <h3 class="poppins-regular">Bundles</h3>
-                    </a>
-                </div>
-                <div class="_categories_box">
-                    <a href="#" class="text-center">
-                        <img src="./images/playbook.png" alt="Massagers" />
-                        <h3 class="poppins-regular">Playbook</h3>
-                    </a>
-                </div>
-                <div class="_categories_box">
-                    <a href="#" class="text-center">
-                        <img src="./images/lubes-and-oils.png" alt="Massagers" />
-                        <h3 class="poppins-regular">Lubes & Oils</h3>
-                    </a>
-                </div>
-                <div class="_categories_box">
-                    <a href="#" class="text-center">
-                        <img src="./images/lifestyle.png" alt="Massagers" />
-                        <h3 class="poppins-regular">Lifestyle</h3>
-                    </a>
-                </div>
-                <div class="_categories_box">
-                    <a href="#" class="text-center">
-                        <img src="./images/all-products.png" alt="Massagers" />
-                        <h3 class="poppins-regular">Shop All</h3>
-                    </a>
-                </div>
-            </div>
-        </section>
-        <!-- /Categories -->
+
 
         <!-- Banner Section -->
-        <section class="container _banner rounded-lg position-relative">
+        <section class="container _banner inner_banner rounded-lg position-relative mt-5">
             <div class="banner-text ps-5">
                 <h4>TRENDING COLLECTION</h4>
                 <h1 class="poppins-bold">Top Product of The Week</h1>
                 <a href="#" class="btn btn-lg btn-secondary rounded-pill mt-4">Shop Now</a>
             </div>
             <div class="_banner-img">
-                <img src="/images/banner-girl.png" alt="banner image" />
+                <img src="./images/banner-img2.png" alt="banner image" />
             </div>
         </section>
         <!-- /Banner Section -->
 
-        <!-- Product Carrousell -->
-        <section class="product-carrousel mt-5">
-            <div class="container position-relative">
-                <div class="carr-header mb-4">
-                    <h3>Top Selling Products</h3>
+        <!-- Category Tabs -->
+        <section class="cat-tabs mt-4">
+            <div class="container">
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="nav-all-tab" data-bs-toggle="tab" data-bs-target="#nav-all"
+                            type="button" role="tab" aria-controls="nav-all" aria-selected="true">All</button>
+                        <button class="nav-link" id="nav-massagers-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-massagers" type="button" role="tab" aria-controls="nav-massagers"
+                            aria-selected="false">Massagers</button>
+                        <button class="nav-link" id="nav-bundles-tab" data-bs-toggle="tab" data-bs-target="#nav-bundles"
+                            type="button" role="tab" aria-controls="nav-bundles" aria-selected="false">Bundles</button>
+                        <button class="nav-link" id="nav-playbook-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-playbook" type="button" role="tab" aria-controls="nav-playbook"
+                            aria-selected="false">Playbook</button>
+                        <button class="nav-link" id="nav-lubes-tab" data-bs-toggle="tab" data-bs-target="#nav-lubes"
+                            type="button" role="tab" aria-controls="nav-lubes" aria-selected="false">Lubes &
+                            oils</button>
+                        <button class="nav-link" id="nav-Lifestyle-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-Lifestyle" type="button" role="tab" aria-controls="nav-Lifestyle"
+                            aria-selected="false">Lifestyle</button>
+                    </div>
+                </nav>
+            </div>
+            <!-- Devider -->
+            <div class="container text-dark-50 my-1 py-1">
+                <hr />
+            </div>
+            <!-- /Devider -->
+            <div class="container">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <!-- Product Bundles -->
+                        <section class="product-bundles">
+                            <div class="position-relative">
+                                <div class="carr-header mb-4 d-flex justify-content-between align-items-center">
+                                    <h3>Showing all 12 results</h3>
+                                    <a href="#" class="btn btn-secondary">Filter</a>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product1.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product2.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product3.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product4.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product1.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product2.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product3.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product4.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- /Product Bundles -->
+                    </div>
+                    <div class="tab-pane fade" id="nav-massagers" role="tabpanel" aria-labelledby="nav-massagers-tab">
+                        <!-- Product Bundles -->
+                        <section class="product-bundles">
+                            <div class="position-relative">
+                                <div class="carr-header mb-4 d-flex justify-content-between align-items-center">
+                                    <h3>Massagers</h3>
+                                    <a href="#" class="btn btn-secondary">Filter</a>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product1.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product2.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product3.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product4.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- /Product Bundles -->
+                    </div>
+                    <div class="tab-pane fade" id="nav-bundles" role="tabpanel" aria-labelledby="nav-bundles-tab">
+                        <!-- Product Bundles -->
+                        <section class="product-bundles">
+                            <div class="position-relative">
+                                <div class="carr-header mb-4 d-flex justify-content-between align-items-center">
+                                    <h3>Bundles</h3>
+                                    <a href="#" class="btn btn-secondary">Filter</a>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product1.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product2.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product3.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product4.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- /Product Bundles -->
+                    </div>
+                    <div class="tab-pane fade" id="nav-playbook" role="tabpanel" aria-labelledby="nav-playbook-tab">
+                        <!-- Product Bundles -->
+                        <section class="product-bundles">
+                            <div class="position-relative">
+                                <div class="carr-header mb-4 d-flex justify-content-between align-items-center">
+                                    <h3>Playbook</h3>
+                                    <a href="#" class="btn btn-secondary">Filter</a>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product1.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product2.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product3.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product4.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- /Product Bundles -->
+                    </div>
+                    <div class="tab-pane fade" id="nav-lubes" role="tabpanel" aria-labelledby="nav-lubes-tab">
+                        <!-- Product Bundles -->
+                        <section class="product-bundles">
+                            <div class="position-relative">
+                                <div class="carr-header mb-4 d-flex justify-content-between align-items-center">
+                                    <h3>Lubes & Oils</h3>
+                                    <a href="#" class="btn btn-secondary">Filter</a>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product1.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product2.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product3.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product4.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- /Product Bundles -->
+                    </div>
+                    <div class="tab-pane fade" id="nav-Lifestyle" role="tabpanel" aria-labelledby="nav-Lifestyle-tab">
+                        <!-- Product Bundles -->
+                        <section class="product-bundles">
+                            <div class="position-relative">
+                                <div class="carr-header mb-4 d-flex justify-content-between align-items-center">
+                                    <h3>Lifestyle</h3>
+                                    <a href="#" class="btn btn-secondary">Filter</a>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product1.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product2.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product3.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xl-3 mb-3">
+                                        <div class="product-card">
+                                            <div class="product-img position-relative">
+                                                <img src="images/product4.jpg" alt="Product Image" />
+                                                <div class="sale-tag bg-secondary position-absolute">
+                                                    -40%
+                                                </div>
+                                                <button class="product-img-btn btn-wishlist position-absolute">
+                                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
+                                                </button>
+                                                <button class="product-img-btn btn-view position-absolute">
+                                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
+                                                </button>
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h5 class="product-title">
+                                                    <a href="#" class="text-decoration-none text-darkBlue">The Good
+                                                        Vibes Kit</a>
+                                                </h5>
+                                                <p class="product-excerpt">
+                                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
+                                                </p>
+                                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
+                                                    ₹1200
+                                                    <span
+                                                        class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
+                                                </p>
+                                                <div class="reviews d-flex gap-2 mb-4">
+                                                    <div class="_stars d-flex">
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                        <img src="images/icons/star.svg" alt="star icon" />
+                                                    </div>
+                                                    <div class="rev-count">4.8 | 406 Reviews</div>
+                                                </div>
+                                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to
+                                                    cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- /Product Bundles -->
+                    </div>
                 </div>
 
-                <div class="owl-carousel owl-theme">
-                    <div class="item">
-                        <div class="product-card">
-                            <div class="product-img position-relative">
-                                <img src="images/product1.jpg" alt="Product Image" />
-                                <div class="sale-tag position-absolute">-40%</div>
-                                <button class="product-img-btn btn-wishlist position-absolute">
-                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
-                                </button>
-                                <button class="product-img-btn btn-view position-absolute">
-                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
-                                </button>
-                            </div>
-
-                            <div class="card-body">
-                                <h5 class="product-title">
-                                    <a href="#" class="text-decoration-none text-darkBlue">The Good Vibes Kit</a>
-                                </h5>
-                                <p class="product-excerpt">
-                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
-                                </p>
-                                <p class="product-price text-primary poppins-semibold d-flex gap-2">
-                                    ₹1200
-                                    <span class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
-                                </p>
-                                <div class="reviews d-flex gap-2 mb-4">
-                                    <div class="_stars d-flex">
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                    </div>
-                                    <div class="rev-count">4.8 | 406 Reviews</div>
-                                </div>
-                                <a href="#" class="btn btn-outline-primary btn-lg d-block">Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="product-card">
-                            <div class="product-img position-relative">
-                                <img src="images/product2.jpg" alt="Product Image" />
-                                <div class="sale-tag position-absolute">-40%</div>
-                                <button class="product-img-btn btn-wishlist position-absolute">
-                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
-                                </button>
-                                <button class="product-img-btn btn-view position-absolute">
-                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
-                                </button>
-                            </div>
-
-                            <div class="card-body">
-                                <h5 class="product-title">
-                                    <a href="#" class="text-decoration-none text-darkBlue">The Good Vibes Kit</a>
-                                </h5>
-                                <p class="product-excerpt">
-                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
-                                </p>
-                                <p class="product-price text-primary poppins-semibold d-flex gap-2">
-                                    ₹1200
-                                    <span class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
-                                </p>
-                                <div class="reviews d-flex gap-2 mb-4">
-                                    <div class="_stars d-flex">
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                    </div>
-                                    <div class="rev-count">4.8 | 406 Reviews</div>
-                                </div>
-                                <a href="#" class="btn btn-outline-primary btn-lg d-block">Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="product-card">
-                            <div class="product-img position-relative">
-                                <img src="images/product3.jpg" alt="Product Image" />
-                                <div class="sale-tag position-absolute">-40%</div>
-                                <button class="product-img-btn btn-wishlist position-absolute">
-                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
-                                </button>
-                                <button class="product-img-btn btn-view position-absolute">
-                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
-                                </button>
-                            </div>
-
-                            <div class="card-body">
-                                <h5 class="product-title">
-                                    <a href="#" class="text-decoration-none text-darkBlue">The Good Vibes Kit</a>
-                                </h5>
-                                <p class="product-excerpt">
-                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
-                                </p>
-                                <p class="product-price text-primary poppins-semibold d-flex gap-2">
-                                    ₹1200
-                                    <span class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
-                                </p>
-                                <div class="reviews d-flex gap-2 mb-4">
-                                    <div class="_stars d-flex">
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                    </div>
-                                    <div class="rev-count">4.8 | 406 Reviews</div>
-                                </div>
-                                <a href="#" class="btn btn-outline-primary btn-lg d-block">Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="product-card">
-                            <div class="product-img position-relative">
-                                <img src="images/product4.jpg" alt="Product Image" />
-                                <div class="sale-tag position-absolute">-40%</div>
-                                <button class="product-img-btn btn-wishlist position-absolute">
-                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
-                                </button>
-                                <button class="product-img-btn btn-view position-absolute">
-                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
-                                </button>
-                            </div>
-
-                            <div class="card-body">
-                                <h5 class="product-title">
-                                    <a href="#" class="text-decoration-none text-darkBlue">The Good Vibes Kit</a>
-                                </h5>
-                                <p class="product-excerpt">
-                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
-                                </p>
-                                <p class="product-price text-primary poppins-semibold d-flex gap-2">
-                                    ₹1200
-                                    <span class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
-                                </p>
-                                <div class="reviews d-flex gap-2 mb-4">
-                                    <div class="_stars d-flex">
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                    </div>
-                                    <div class="rev-count">4.8 | 406 Reviews</div>
-                                </div>
-                                <a href="#" class="btn btn-outline-primary btn-lg d-block">Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="product-card">
-                            <div class="product-img position-relative">
-                                <img src="images/product5.jpg" alt="Product Image" />
-                                <div class="sale-tag position-absolute">-40%</div>
-                                <button class="product-img-btn btn-wishlist position-absolute">
-                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
-                                </button>
-                                <button class="product-img-btn btn-view position-absolute">
-                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
-                                </button>
-                            </div>
-
-                            <div class="card-body">
-                                <h5 class="product-title">
-                                    <a href="#" class="text-decoration-none text-darkBlue">The Good Vibes Kit</a>
-                                </h5>
-                                <p class="product-excerpt">
-                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
-                                </p>
-                                <p class="product-price text-primary poppins-semibold d-flex gap-2">
-                                    ₹1200
-                                    <span class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
-                                </p>
-                                <div class="reviews d-flex gap-2 mb-4">
-                                    <div class="_stars d-flex">
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                    </div>
-                                    <div class="rev-count">4.8 | 406 Reviews</div>
-                                </div>
-                                <a href="#" class="btn btn-outline-primary btn-lg d-block">Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Add more products as needed -->
-                </div>
             </div>
         </section>
-        <!-- /Product Carrousell -->
+        <!-- /Category Tabs -->
 
-        <!-- Devider -->
-        <div class="container text-dark-50 my-4 py-3">
-            <hr />
-        </div>
-        <!-- /Devider -->
 
-        <!-- Product Bundles -->
-        <section class="product-bundles">
-            <div class="container position-relative">
-                <div class="carr-header mb-4 d-flex justify-content-between align-items-center">
-                    <h3>Bundles</h3>
-                    <a href="#" class="btn btn-secondary">View All</a>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-6 col-xl-3">
-                        <div class="product-card">
-                            <div class="product-img position-relative">
-                                <img src="images/product1.jpg" alt="Product Image" />
-                                <div class="sale-tag bg-secondary position-absolute">
-                                    -40%
-                                </div>
-                                <button class="product-img-btn btn-wishlist position-absolute">
-                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
-                                </button>
-                                <button class="product-img-btn btn-view position-absolute">
-                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
-                                </button>
-                            </div>
 
-                            <div class="card-body">
-                                <h5 class="product-title">
-                                    <a href="#" class="text-decoration-none text-darkBlue">The Good Vibes Kit</a>
-                                </h5>
-                                <p class="product-excerpt">
-                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
-                                </p>
-                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
-                                    ₹1200
-                                    <span class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
-                                </p>
-                                <div class="reviews d-flex gap-2 mb-4">
-                                    <div class="_stars d-flex">
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                    </div>
-                                    <div class="rev-count">4.8 | 406 Reviews</div>
-                                </div>
-                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-3">
-                        <div class="product-card">
-                            <div class="product-img position-relative">
-                                <img src="images/product2.jpg" alt="Product Image" />
-                                <div class="sale-tag bg-secondary position-absolute">
-                                    -40%
-                                </div>
-                                <button class="product-img-btn btn-wishlist position-absolute">
-                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
-                                </button>
-                                <button class="product-img-btn btn-view position-absolute">
-                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
-                                </button>
-                            </div>
 
-                            <div class="card-body">
-                                <h5 class="product-title">
-                                    <a href="#" class="text-decoration-none text-darkBlue">The Good Vibes Kit</a>
-                                </h5>
-                                <p class="product-excerpt">
-                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
-                                </p>
-                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
-                                    ₹1200
-                                    <span class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
-                                </p>
-                                <div class="reviews d-flex gap-2 mb-4">
-                                    <div class="_stars d-flex">
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                    </div>
-                                    <div class="rev-count">4.8 | 406 Reviews</div>
-                                </div>
-                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-3">
-                        <div class="product-card">
-                            <div class="product-img position-relative">
-                                <img src="images/product3.jpg" alt="Product Image" />
-                                <div class="sale-tag bg-secondary position-absolute">
-                                    -40%
-                                </div>
-                                <button class="product-img-btn btn-wishlist position-absolute">
-                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
-                                </button>
-                                <button class="product-img-btn btn-view position-absolute">
-                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
-                                </button>
-                            </div>
 
-                            <div class="card-body">
-                                <h5 class="product-title">
-                                    <a href="#" class="text-decoration-none text-darkBlue">The Good Vibes Kit</a>
-                                </h5>
-                                <p class="product-excerpt">
-                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
-                                </p>
-                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
-                                    ₹1200
-                                    <span class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
-                                </p>
-                                <div class="reviews d-flex gap-2 mb-4">
-                                    <div class="_stars d-flex">
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                    </div>
-                                    <div class="rev-count">4.8 | 406 Reviews</div>
-                                </div>
-                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-3">
-                        <div class="product-card">
-                            <div class="product-img position-relative">
-                                <img src="images/product4.jpg" alt="Product Image" />
-                                <div class="sale-tag bg-secondary position-absolute">
-                                    -40%
-                                </div>
-                                <button class="product-img-btn btn-wishlist position-absolute">
-                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
-                                </button>
-                                <button class="product-img-btn btn-view position-absolute">
-                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
-                                </button>
-                            </div>
 
-                            <div class="card-body">
-                                <h5 class="product-title">
-                                    <a href="#" class="text-decoration-none text-darkBlue">The Good Vibes Kit</a>
-                                </h5>
-                                <p class="product-excerpt">
-                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
-                                </p>
-                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
-                                    ₹1200
-                                    <span class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
-                                </p>
-                                <div class="reviews d-flex gap-2 mb-4">
-                                    <div class="_stars d-flex">
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                    </div>
-                                    <div class="rev-count">4.8 | 406 Reviews</div>
-                                </div>
-                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Product Bundles -->
 
-        <!-- Section User Reviews -->
-        <section class="user-reviews product-carrousel py-5 mt-4 mb-5">
-            <div class="container position-relative">
-                <div class="carr-header mb-4">
-                    <h3>Over 1000+ People Trust Us</h3>
-                </div>
-                <div class="owl-carousel owl-theme">
-                    <div class="item">
-                        <div class="rev-item position-relative">
-                            <img src="images/rev-img1.jpg" alt="Review Image" />
-                            <div class="play-btn position-absolute">
-                                <a href="#"><img src="images/icons/play-btn.svg" alt="Play Button" /></a>
-                            </div>
-                            <div class="review-txt position-absolute">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                                corporis rerum alias
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="rev-item position-relative">
-                            <img src="images/rev-img2.jpg" alt="Review Image" />
-                            <div class="play-btn position-absolute">
-                                <a href="#"><img src="images/icons/play-btn.svg" alt="Play Button" /></a>
-                            </div>
-                            <div class="review-txt position-absolute">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                                corporis rerum alias
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="rev-item position-relative">
-                            <img src="images/rev-img3.jpg" alt="Review Image" />
-                            <div class="play-btn position-absolute">
-                                <a href="#"><img src="images/icons/play-btn.svg" alt="Play Button" /></a>
-                            </div>
-                            <div class="review-txt position-absolute">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                                corporis rerum alias
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="rev-item position-relative">
-                            <img src="images/rev-img4.jpg" alt="Review Image" />
-                            <div class="play-btn position-absolute">
-                                <a href="#"><img src="images/icons/play-btn.svg" alt="Play Button" /></a>
-                            </div>
-                            <div class="review-txt position-absolute">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                                corporis rerum alias
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="rev-item position-relative">
-                            <img src="images/rev-img3.jpg" alt="Review Image" />
-                            <div class="play-btn position-absolute">
-                                <a href="#"><img src="images/icons/play-btn.svg" alt="Play Button" /></a>
-                            </div>
-                            <div class="review-txt position-absolute">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                                corporis rerum alias
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Section User Reviews -->
-
-        <!-- For Men -->
-        <section class="product-bundles">
-            <div class="container position-relative">
-                <div class="carr-header mb-4 d-flex justify-content-between align-items-center">
-                    <h3>For Men</h3>
-                    <a href="#" class="btn btn-primary">View All</a>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-6 col-xl-3">
-                        <div class="product-card">
-                            <div class="product-img position-relative">
-                                <img src="images/product1.jpg" alt="Product Image" />
-                                <div class="sale-tag position-absolute">-40%</div>
-                                <button class="product-img-btn btn-wishlist position-absolute">
-                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
-                                </button>
-                                <button class="product-img-btn btn-view position-absolute">
-                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
-                                </button>
-                            </div>
-
-                            <div class="card-body">
-                                <h5 class="product-title">
-                                    <a href="#" class="text-decoration-none text-darkBlue">The Good Vibes Kit</a>
-                                </h5>
-                                <p class="product-excerpt">
-                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
-                                </p>
-                                <p class="product-price text-primary poppins-semibold d-flex gap-2">
-                                    ₹1200
-                                    <span class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
-                                </p>
-                                <div class="reviews d-flex gap-2 mb-4">
-                                    <div class="_stars d-flex">
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                    </div>
-                                    <div class="rev-count">4.8 | 406 Reviews</div>
-                                </div>
-                                <a href="#" class="btn btn-outline-primary btn-lg d-block">Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-3">
-                        <div class="product-card">
-                            <div class="product-img position-relative">
-                                <img src="images/product2.jpg" alt="Product Image" />
-                                <div class="sale-tag position-absolute">-40%</div>
-                                <button class="product-img-btn btn-wishlist position-absolute">
-                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
-                                </button>
-                                <button class="product-img-btn btn-view position-absolute">
-                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
-                                </button>
-                            </div>
-
-                            <div class="card-body">
-                                <h5 class="product-title">
-                                    <a href="#" class="text-decoration-none text-darkBlue">The Good Vibes Kit</a>
-                                </h5>
-                                <p class="product-excerpt">
-                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
-                                </p>
-                                <p class="product-price text-primary poppins-semibold d-flex gap-2">
-                                    ₹1200
-                                    <span class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
-                                </p>
-                                <div class="reviews d-flex gap-2 mb-4">
-                                    <div class="_stars d-flex">
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                    </div>
-                                    <div class="rev-count">4.8 | 406 Reviews</div>
-                                </div>
-                                <a href="#" class="btn btn-outline-primary btn-lg d-block">Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-3">
-                        <div class="product-card">
-                            <div class="product-img position-relative">
-                                <img src="images/product3.jpg" alt="Product Image" />
-                                <div class="sale-tag position-absolute">-40%</div>
-                                <button class="product-img-btn btn-wishlist position-absolute">
-                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
-                                </button>
-                                <button class="product-img-btn btn-view position-absolute">
-                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
-                                </button>
-                            </div>
-
-                            <div class="card-body">
-                                <h5 class="product-title">
-                                    <a href="#" class="text-decoration-none text-darkBlue">The Good Vibes Kit</a>
-                                </h5>
-                                <p class="product-excerpt">
-                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
-                                </p>
-                                <p class="product-price text-primary poppins-semibold d-flex gap-2">
-                                    ₹1200
-                                    <span class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
-                                </p>
-                                <div class="reviews d-flex gap-2 mb-4">
-                                    <div class="_stars d-flex">
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                    </div>
-                                    <div class="rev-count">4.8 | 406 Reviews</div>
-                                </div>
-                                <a href="#" class="btn btn-outline-primary btn-lg d-block">Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-3">
-                        <div class="product-card">
-                            <div class="product-img position-relative">
-                                <img src="images/product4.jpg" alt="Product Image" />
-                                <div class="sale-tag position-absolute">-40%</div>
-                                <button class="product-img-btn btn-wishlist position-absolute">
-                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
-                                </button>
-                                <button class="product-img-btn btn-view position-absolute">
-                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
-                                </button>
-                            </div>
-
-                            <div class="card-body">
-                                <h5 class="product-title">
-                                    <a href="#" class="text-decoration-none text-darkBlue">The Good Vibes Kit</a>
-                                </h5>
-                                <p class="product-excerpt">
-                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
-                                </p>
-                                <p class="product-price text-primary poppins-semibold d-flex gap-2">
-                                    ₹1200
-                                    <span class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
-                                </p>
-                                <div class="reviews d-flex gap-2 mb-4">
-                                    <div class="_stars d-flex">
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                    </div>
-                                    <div class="rev-count">4.8 | 406 Reviews</div>
-                                </div>
-                                <a href="#" class="btn btn-outline-primary btn-lg d-block">Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /For Men -->
-        <!-- Devider -->
-        <div class="container text-dark-50 my-4 py-3">
-            <hr />
-        </div>
-        <!-- /Devider -->
-        <!-- For Women -->
-        <section class="product-bundles mt-2 mb-5">
-            <div class="container position-relative">
-                <div class="carr-header mb-4 d-flex justify-content-between align-items-center">
-                    <h3>For Women</h3>
-                    <a href="#" class="btn btn-secondary">View All</a>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-6 col-xl-3">
-                        <div class="product-card">
-                            <div class="product-img position-relative">
-                                <img src="images/product1.jpg" alt="Product Image" />
-                                <div class="sale-tag bg-secondary position-absolute">
-                                    -40%
-                                </div>
-                                <button class="product-img-btn btn-wishlist position-absolute">
-                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
-                                </button>
-                                <button class="product-img-btn btn-view position-absolute">
-                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
-                                </button>
-                            </div>
-
-                            <div class="card-body">
-                                <h5 class="product-title">
-                                    <a href="#" class="text-decoration-none text-darkBlue">The Good Vibes Kit</a>
-                                </h5>
-                                <p class="product-excerpt">
-                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
-                                </p>
-                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
-                                    ₹1200
-                                    <span class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
-                                </p>
-                                <div class="reviews d-flex gap-2 mb-4">
-                                    <div class="_stars d-flex">
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                    </div>
-                                    <div class="rev-count">4.8 | 406 Reviews</div>
-                                </div>
-                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-3">
-                        <div class="product-card">
-                            <div class="product-img position-relative">
-                                <img src="images/product2.jpg" alt="Product Image" />
-                                <div class="sale-tag bg-secondary position-absolute">
-                                    -40%
-                                </div>
-                                <button class="product-img-btn btn-wishlist position-absolute">
-                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
-                                </button>
-                                <button class="product-img-btn btn-view position-absolute">
-                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
-                                </button>
-                            </div>
-
-                            <div class="card-body">
-                                <h5 class="product-title">
-                                    <a href="#" class="text-decoration-none text-darkBlue">The Good Vibes Kit</a>
-                                </h5>
-                                <p class="product-excerpt">
-                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
-                                </p>
-                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
-                                    ₹1200
-                                    <span class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
-                                </p>
-                                <div class="reviews d-flex gap-2 mb-4">
-                                    <div class="_stars d-flex">
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                    </div>
-                                    <div class="rev-count">4.8 | 406 Reviews</div>
-                                </div>
-                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-3">
-                        <div class="product-card">
-                            <div class="product-img position-relative">
-                                <img src="images/product3.jpg" alt="Product Image" />
-                                <div class="sale-tag bg-secondary position-absolute">
-                                    -40%
-                                </div>
-                                <button class="product-img-btn btn-wishlist position-absolute">
-                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
-                                </button>
-                                <button class="product-img-btn btn-view position-absolute">
-                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
-                                </button>
-                            </div>
-
-                            <div class="card-body">
-                                <h5 class="product-title">
-                                    <a href="#" class="text-decoration-none text-darkBlue">The Good Vibes Kit</a>
-                                </h5>
-                                <p class="product-excerpt">
-                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
-                                </p>
-                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
-                                    ₹1200
-                                    <span class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
-                                </p>
-                                <div class="reviews d-flex gap-2 mb-4">
-                                    <div class="_stars d-flex">
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                    </div>
-                                    <div class="rev-count">4.8 | 406 Reviews</div>
-                                </div>
-                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-3">
-                        <div class="product-card">
-                            <div class="product-img position-relative">
-                                <img src="images/product4.jpg" alt="Product Image" />
-                                <div class="sale-tag bg-secondary position-absolute">
-                                    -40%
-                                </div>
-                                <button class="product-img-btn btn-wishlist position-absolute">
-                                    <img src="images/icons/wishlist_icn2.svg" alt="Wishlist Icon" />
-                                </button>
-                                <button class="product-img-btn btn-view position-absolute">
-                                    <img src="images/icons/quick_view.svg" alt="Quick View Icon" />
-                                </button>
-                            </div>
-
-                            <div class="card-body">
-                                <h5 class="product-title">
-                                    <a href="#" class="text-decoration-none text-darkBlue">The Good Vibes Kit</a>
-                                </h5>
-                                <p class="product-excerpt">
-                                    Lorem ipsum dolor dummy sit, consectetur adipiscing elit
-                                </p>
-                                <p class="product-price text-secondary poppins-semibold d-flex gap-2">
-                                    ₹1200
-                                    <span class="text-decoration-line-through text-black-50 poppins-medium">₹1600</span>
-                                </p>
-                                <div class="reviews d-flex gap-2 mb-4">
-                                    <div class="_stars d-flex">
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                        <img src="images/icons/star.svg" alt="star icon" />
-                                    </div>
-                                    <div class="rev-count">4.8 | 406 Reviews</div>
-                                </div>
-                                <a href="#" class="btn btn-outline-secondary btn-lg d-block">Add to cart</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /For Women -->
 
         <!-- Problem Specific -->
         <section class="user-reviews product-carrousel py-5 mt-4 mb-5">
@@ -1104,92 +1597,7 @@
         </section>
         <!--/Our Promise -->
 
-        <!-- Couples COllection Banner -->
-        <section class="couples-collection mb-4">
-            <div class="container couples-cont rounded-1">
-                <div class="d-flex inner-div">
-                    <div class="couples-txt d-flex flex-column gap-2">
-                        <h3>Couple’s Collections</h3>
-                        <p>
-                            Duis aute irure dolor in all elipso reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla.
-                        </p>
-                        <a href="#" class="btn btn-light">Shop Now</a>
-                    </div>
-                    <div class="couples-images position-relative">
-                        <div class="curve">
-                            <img src="images/line1.svg" alt="Curve Line" />
-                        </div>
-                        <div class="couple-img">
-                            <img src="images/coupls-collection-img.png" alt="Couples Collection" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Couples COllection Banner -->
-        <!-- Other Colletions -->
-        <section class="other-collections">
-            <div class="container px-0">
-                <div class="row">
-                    <div class="col-12 col-lg-6 mb-4">
-                        <div class="mens-collection bg-primary rounded-1">
-                            <div class="_txt ms-5 pt-5 pb-0">
-                                <h3>Men's Collection</h3>
-                                <p>
-                                    Duis aute irure dolor in all elipso reprehenderit in
-                                    voluptate velit esse cillum dolore eu fugiat nulla.
-                                </p>
-                                <a href="#" class="btn btn-dark">Shop Now</a>
-                            </div>
-                            <div class="_img">
-                                <img src="images/mens-collection-img.png" alt="Mens Collection" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6">
-                        <div class="womens-collection bg-secondary rounded-1">
-                            <div class="_txt text-white">
-                                <h3>Women's Collection</h3>
-                                <p>
-                                    Duis aute irure dolor in all elipso reprehenderit in
-                                    voluptate velit esse cillum dolore eu fugiat nulla.
-                                </p>
-                                <a href="#" class="btn btn-light">Shop Now</a>
-                            </div>
-                            <div class="_img">
-                                <img src="images/womens-collection-img.png" alt="Womes Collection" />
-                            </div>
-                        </div>
-                        <div class="row mt-4">
-                            <div class="col-12 col-md-6 mb-4 mb-md-0">
-                                <div class="under-19 bg-blue rounded-1 h-100">
-                                    <div class="_img">
-                                        <img src="images/under19.svg" alt="Under 19" class="w-100" />
-                                    </div>
-                                    <!--<img src="images/heart-img.png" alt="Under 19" />-->
-                                    <div class="_btn text-center">
-                                        <a href="#" class="btn btn-light">Shop Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <div class="lgbt bg-blue rounded-1 h-100">
-                                    <div class="_txt text-white p-4">
-                                        <h3>LGBT</h3>
-                                        <a href="#" class="btn btn-light">Shop Now</a>
-                                    </div>
-                                    <div class="_img">
-                                        <img src="images/lgbt-img.png" alt="LGBT" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Other Colletions -->
+
         <!-- Features -->
         <section class="features mt-5 mb-5">
             <div class="container">

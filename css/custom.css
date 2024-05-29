@@ -441,6 +441,23 @@ header .nav {
 .search-form {
   width: 350px;
 }
+.inner_banner ._banner-img {
+  position: relative;
+  right: 0;
+}
+.cat-tabs .nav-tabs {
+  border-bottom: 0;
+}
+.cat-tabs .nav-tabs .nav-link {
+  border: 1px solid #d9d9d9;
+  border-radius: 0;
+  color: #333;
+  min-width: 150px;
+}
+.cat-tabs .nav-tabs .nav-link.active {
+  background: var(--secondaryColor);
+  color: #fff;
+}
 /* Responsive */
 @media (max-width: 1400px) {
   .promise-box.promise3 {
@@ -604,6 +621,10 @@ header .nav {
   .main-footer .row {
     gap: 20px;
     text-align: center;
+  }
+  .cat-tabs .nav-tabs {
+    border-bottom: 0;
+    flex-direction: column;
   }
 }
 @media (max-width: 580px) {
