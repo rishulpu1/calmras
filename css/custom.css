@@ -458,6 +458,15 @@ header .nav {
   background: var(--secondaryColor);
   color: #fff;
 }
+.breadcrumbs {
+  background: #fafafa;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  float: left;
+  padding-right: var(--bs-breadcrumb-item-padding-x);
+  color: var(--bs-breadcrumb-divider-color);
+  content: var(--bs-breadcrumb-divider, ">");
+}
 /* Responsive */
 @media (max-width: 1400px) {
   .promise-box.promise3 {

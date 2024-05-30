@@ -13,6 +13,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Owl Carousel CSS -->
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
@@ -24,7 +27,7 @@
 
 <body class="poppins-regular">
     <!-- Start Header -->
-    <header class="p-3 mb-3 border-bottom">
+    <header class="p-3 border-bottom">
         <div class="container position-relative">
             <div
                 class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start navbar-expand-lg">
@@ -115,62 +118,122 @@
     </header>
     <!-- End Header -->
     <main>
-        <!-- Categories -->
-        <section class="container _categories mt-3">
-            <div
-                class="d-flex flex-column flex-lg-row justify-content-md-center py-4 gap-3 gap-xl-5 _categories_box-cont">
-                <div class="_categories_box">
-                    <a href="#" class="text-center">
-                        <img src="./images/massagers.png" alt="Massagers" />
-                        <h3 class="poppins-regular">Massagers</h3>
-                    </a>
-                </div>
-                <div class="_categories_box">
-                    <a href="#" class="text-center">
-                        <img src="./images/bundles.png" alt="Massagers" />
-                        <h3 class="poppins-regular">Bundles</h3>
-                    </a>
-                </div>
-                <div class="_categories_box">
-                    <a href="#" class="text-center">
-                        <img src="./images/playbook.png" alt="Massagers" />
-                        <h3 class="poppins-regular">Playbook</h3>
-                    </a>
-                </div>
-                <div class="_categories_box">
-                    <a href="#" class="text-center">
-                        <img src="./images/lubes-and-oils.png" alt="Massagers" />
-                        <h3 class="poppins-regular">Lubes & Oils</h3>
-                    </a>
-                </div>
-                <div class="_categories_box">
-                    <a href="#" class="text-center">
-                        <img src="./images/lifestyle.png" alt="Massagers" />
-                        <h3 class="poppins-regular">Lifestyle</h3>
-                    </a>
-                </div>
-                <div class="_categories_box">
-                    <a href="#" class="text-center">
-                        <img src="./images/all-products.png" alt="Massagers" />
-                        <h3 class="poppins-regular">Shop All</h3>
-                    </a>
-                </div>
+        <!-- Breadcrumbs -->
+        <section class="breadcrumbs py-5">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#"
+                                class="text-decoration-none poppins-bold text-dark">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Shop</li>
+                    </ol>
+                </nav>
             </div>
         </section>
-        <!-- /Categories -->
+        <!-- /Breadcrumbs -->
 
-        <!-- Banner Section -->
-        <section class="container _banner rounded-lg position-relative">
-            <div class="banner-text ps-5">
-                <h4>TRENDING COLLECTION</h4>
-                <h1 class="poppins-bold">Top Product of The Week</h1>
-                <a href="#" class="btn btn-lg btn-secondary rounded-pill mt-4">Shop Now</a>
-            </div>
-            <div class="_banner-img">
-                <img src="./images/banner-girl.png" alt="banner image" />
+        <!-- content -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row gx-5">
+                    <aside class="col-lg-6">
+                        <div class=" rounded-4 mb-3 d-flex justify-content-start">
+                            <a data-fslightbox="mygalley" class="rounded-4" target="_blank" data-type="image"
+                                href="./images/product-img-feat.jpg">
+                                <img style="max-width: 100%; max-height: 100vh; margin: auto;" class="rounded-4 fit"
+                                    src="./images/product-img-feat.jpg" />
+                            </a>
+                        </div>
+                        <div class="d-flex justify-content-start mb-3">
+                            <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank"
+                                data-type="image" href="./images/product-img-feat.jpg" class="item-thumb">
+                                <img width="60" height="60" class="rounded-2" src="./images/product-img-feat.jpg" />
+                            </a>
+                            <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank"
+                                data-type="image" href="./images/product-img-thumb.png" class="item-thumb">
+                                <img width="60" height="60" class="rounded-2" src="./images/product-img-thumb.png" />
+                            </a>
+                            <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank"
+                                data-type="image" href="./images/product-img-thumb.png" class="item-thumb">
+                                <img width="60" height="60" class="rounded-2" src="./images/product-img-thumb.png" />
+                            </a>
+                            <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank"
+                                data-type="image" href="./images/product-img-thumb.png" class="item-thumb">
+                                <img width="60" height="60" class="rounded-2" src="./images/product-img-thumb.png" />
+                            </a>
+                            <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank"
+                                data-type="image" href="./images/product-img-thumb.png" class="item-thumb">
+                                <img width="60" height="60" class="rounded-2" src="./images/product-img-thumb.png" />
+                            </a>
+                        </div>
+                        <!-- thumbs-wrap.// -->
+                        <!-- gallery-wrap .end// -->
+                    </aside>
+                    <main class="col-lg-6">
+                        <div class="ps-lg-3">
+                            <h4 class="title text-dark">
+                                G Spot Clit Vibrator
+                            </h4>
+                            <div class="d-flex flex-row my-3">
+                                <div class="text-warning mb-1 me-2">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <!-- <span class="ms-1">
+                                        4.5
+                                    </span> -->
+                                </div>
+                                <span class="text-muted">10 Reviews</span>
+                            </div>
+
+                            <div class="mb-3">
+                                <span class="h5">$75.00</span>
+                                <span class="text-muted">/per box</span>
+                            </div>
+
+                            <p>
+                                Modern look and quality demo item is a streetwear-inspired collection that continues to
+                                break away from the conventions of mainstream fashion. Made in Italy, these black and
+                                brown clothing low-top shirts for
+                                men.
+                            </p>
+
+
+
+                            <hr />
+
+                            <div class="row mb-4">
+
+                                <!-- col.// -->
+                                <div class="col-md-4 col-6 mb-3">
+
+                                    <div class="input-group mb-3" style="width: 170px;">
+                                        <button class="btn btn-white border border-secondary px-3" type="button"
+                                            id="button-addon1" data-mdb-ripple-color="dark">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                        <input type="text" class="form-control text-center border border-secondary"
+                                            placeholder="14" aria-label="Example text with button addon"
+                                            aria-describedby="button-addon1" />
+                                        <button class="btn btn-white border border-secondary px-3" type="button"
+                                            id="button-addon2" data-mdb-ripple-color="dark">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-6 mb-3">
+                                    <a href="#" class="btn btn-secondary "> Buy now </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </main>
+                </div>
             </div>
         </section>
-        <!-- /Banner Section -->
+        <!-- content -->
 
         <!-- Product Carrousell -->
         <section class="product-carrousel mt-5">
