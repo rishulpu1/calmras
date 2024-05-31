@@ -138,10 +138,10 @@
                 <div class="row gx-5">
                     <aside class="col-lg-6">
                         <div class=" rounded-4 mb-3 d-flex justify-content-start">
-                            <a data-fslightbox="mygalley" class="rounded-4" target="_blank" data-type="image"
-                                href="./images/product-img-feat.jpg">
-                                <img style="max-width: 100%; max-height: 100vh; margin: auto;" class="rounded-4 fit"
-                                    src="./images/product-img-feat.jpg" />
+                            <a data-fslightbox="mygalley" class="rounded-4 d-block w-100" target="_blank"
+                                data-type="image" href="./images/product-img-feat.jpg">
+                                <img style="max-width: 100%; max-height: 100vh; margin: auto;"
+                                    class="rounded-4 fit w-100" src="./images/product-img-feat.jpg" />
                             </a>
                         </div>
                         <div class="d-flex justify-content-start mb-3">
@@ -188,28 +188,27 @@
                                 <span class="text-muted">10 Reviews</span>
                             </div>
 
-                            <div class="mb-3">
-                                <span class="h5">$75.00</span>
-                                <span class="text-muted">/per box</span>
+                            <div class="mb-3 _price-cont">
+                                <span class="_price poppins-bold">₹1,139</span>
+
+                            </div>
+                            <div class="availability text-muted mb-2">
+                                Availability : <span class="poppins-bold text-secondary">In Stock </span>
                             </div>
 
-                            <p>
-                                Modern look and quality demo item is a streetwear-inspired collection that continues to
-                                break away from the conventions of mainstream fashion. Made in Italy, these black and
-                                brown clothing low-top shirts for
-                                men.
-                            </p>
+                            <div class="color-swatches mb-3">
+                                <a href="#" style="background-color: #5C1B7C;"></a>
+                                <a href="#" style="background-color: #007DA4;"></a>
+                                <a href="#" style="background-color: #252B42;"></a>
+                            </div>
 
 
-
-                            <hr />
-
-                            <div class="row mb-4">
+                            <div class="buy-now-cont mb-3">
 
                                 <!-- col.// -->
-                                <div class="col-md-4 col-6 mb-3">
+                                <div class="qty-fields">
 
-                                    <div class="input-group mb-3" style="width: 170px;">
+                                    <div class="input-group " style="width: 170px;">
                                         <button class="btn btn-white border border-secondary px-3" type="button"
                                             id="button-addon1" data-mdb-ripple-color="dark">
                                             <i class="fas fa-minus"></i>
@@ -223,10 +222,56 @@
                                         </button>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-6 mb-3">
+                                <div class="buy-now-btn">
                                     <a href="#" class="btn btn-secondary "> Buy now </a>
                                 </div>
+                                <div class="other-btns">
+                                    <a href="#" class="shp-btn _wishlist"><img src="images/icons/wishlist_icn2.svg"
+                                            alt="Wishlist" /></a>
+                                    <a href="#" class="shp-btn _cart"><img src="images/icons/cart_icn2.svg"
+                                            alt="Cart" /></a>
+                                    <a href="#" class="shp-btn _share"><img src="images/icons/share_icn.svg"
+                                            alt="Share" /></a>
+                                </div>
                             </div>
+                            <div class="product-details-tabs">
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                            data-bs-target="#home" type="button" role="tab" aria-controls="home"
+                                            aria-selected="true">Home</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                                            data-bs-target="#profile" type="button" role="tab" aria-controls="profile"
+                                            aria-selected="false">Profile</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                                            data-bs-target="#contact" type="button" role="tab" aria-controls="contact"
+                                            aria-selected="false">Contact</button>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                        aria-labelledby="home-tab">
+                                        <p>
+                                            Modern look and quality demo item is a streetwear-inspired collection that
+                                            continues to
+                                            break away from the conventions of mainstream fashion. Made in Italy, these
+                                            black and
+                                            brown clothing low-top shirts for
+                                            men.
+                                        </p>
+                                    </div>
+                                    <div class="tab-pane fade" id="profile" role="tabpanel"
+                                        aria-labelledby="profile-tab">...</div>
+                                    <div class="tab-pane fade" id="contact" role="tabpanel"
+                                        aria-labelledby="contact-tab">...</div>
+                                </div>
+
+                            </div>
+
 
                         </div>
                     </main>
@@ -1592,7 +1637,7 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
     <!-- Owl Carousel JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
+    <script src="js/fslightbox.js"></script>
     <script>
         $(document).ready(function () {
             $(".owl-carousel").owlCarousel({
