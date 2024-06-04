@@ -703,12 +703,12 @@ tbody tr:last-child td {
 
 tfoot th {
   padding: 2em 1em;
-  border-top: 1px solid #ccc;
+  border-top: 0px solid #ccc;
 }
 tfoot td {
   text-align: center;
   padding: 2em 1em;
-  border-top: 1px solid #ccc;
+  border-top: 0px solid #ccc;
 }
 
 tfoot a {
@@ -738,6 +738,25 @@ td.price-td._feat {
 td.price-td {
   font-size: 22px;
   font-weight: 600;
+}
+.intesity {
+  display: inline-flex;
+  gap: 5px;
+}
+.intesity ._full {
+  width: 20px;
+  height: 20px;
+  background: #587589;
+  border-radius: 50%;
+}
+.intesity ._none {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #587589;
+  border-radius: 50%;
+}
+tbody td._feat {
+  border-top-color: var(--secondaryColor);
 }
 /* Pricing Table */
 
@@ -908,6 +927,18 @@ td.price-td {
   .cat-tabs .nav-tabs {
     border-bottom: 0;
     flex-direction: column;
+  }
+  .user-reviews.product-overview .rev-item {
+    margin-bottom: 20px;
+  }
+  .user-reviews.product-overview .review-txt {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    bottom: 2px;
+  }
+  .how-we-do .item-box {
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 580px) {
