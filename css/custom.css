@@ -552,7 +552,9 @@ table {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  border: 1px solid #e4e1e1;
+  /* border: 1px solid #e4e1e1; */
+  border-radius: 10px !important;
+  box-shadow: 0px 0px 1px 1px #e4e1e1;
 }
 
 th,
@@ -574,7 +576,9 @@ colgroup:nth-child(1) {
 }
 colgroup:nth-child(2) {
   width: 22%;
-  border: 10px solid var(--primaryColor);
+  border: 2px solid var(--secondaryColor);
+  border-bottom: 8px solid var(--secondaryColor);
+  border-radius: 10px;
 }
 colgroup:nth-child(3) {
   width: 25%;
@@ -603,9 +607,9 @@ thead th {
 thead th:nth-child(1) {
   background: transparent;
 }
-thead th:nth-child(3) {
+/* thead th:nth-child(3) {
   padding: 2em 0 5em;
-}
+} */
 thead th h2 {
   font-weight: 300;
   font-size: 2.4em;
@@ -667,7 +671,9 @@ thead th p.promo:after {
 
 tbody th {
   background: #fff;
-  border-left: 1px solid #ccc;
+  border-left: 0px solid #ccc;
+  border-top: 1px solid #ccc;
+  font-size: 18px;
 }
 tbody th span {
   font-weight: normal;
@@ -679,14 +685,16 @@ tbody th span {
 tbody td {
   background: #fff;
   text-align: center;
+  border-top: 1px solid #ccc;
+  font-size: 18px;
 }
 
-tbody tr:nth-child(even) th,
+/* tbody tr:nth-child(even) th,
 tbody tr:nth-child(even) td {
   background: #f5f5f5;
   border: 1px solid #ccc;
   border-width: 1px 0 1px 1px;
-}
+} */
 tbody tr:last-child td {
   border-bottom: 0 none;
 }
@@ -713,7 +721,24 @@ tfoot a {
   background: #59c7fb;
   border-radius: 0.5em;
 }
-
+.pricing-section .product-info-tab .product_img {
+  margin-bottom: 20px;
+}
+.pricing-section .product-info-tab h3 {
+  color: #000;
+  font-size: 22px;
+}
+tr.tr-bg-gray td,
+tr.tr-bg-gray th {
+  background-color: rgba(242, 241, 241, 1);
+}
+td.price-td._feat {
+  background-color: var(--secondaryColor) !important;
+}
+td.price-td {
+  font-size: 22px;
+  font-weight: 600;
+}
 /* Pricing Table */
 
 /* Responsive */
