@@ -19,7 +19,7 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 
-    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/custom.css?v=1.3" />
 </head>
 
 <body class="poppins-regular">
@@ -626,6 +626,39 @@
             </div>
         </section>
         <!-- /Section User Reviews -->
+
+        <!-- Brand logos -->
+        <section class="brands position-relative my-5 pb-5">
+            <div class="container">
+                <div id="brands-carousel" class="owl-carousel  owl-theme">
+                    <div class="item">
+                        <img src="./images/brands/brand1.webp" alt="" />
+                    </div>
+                    <div class="item">
+                        <img src="./images/brands/brand2.webp" alt="" />
+                    </div>
+                    <div class="item">
+                        <img src="./images/brands/brand3.avif" alt="" />
+                    </div>
+                    <div class="item">
+                        <img src="./images/brands/brand4.webp" alt="" />
+                    </div>
+                    <div class="item">
+                        <img src="./images/brands/brand5.avif" alt="" />
+                    </div>
+                    <div class="item">
+                        <img src="./images/brands/brand6.webp" alt="" />
+                    </div>
+                    <div class="item">
+                        <img src="./images/brands/brand7.webp" alt="" />
+                    </div>
+                    <div class="item">
+                        <img src="./images/brands/brand8.webp" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Brand logos -->
 
         <!-- For Men -->
         <section class="product-bundles">
@@ -1532,6 +1565,27 @@
 
     <script>
         $(document).ready(function () {
+            $("#brands-carousel").owlCarousel({
+                loop: true,
+                margin: 20,
+                nav: true,
+                dots: false,
+                navText: [
+                    '<button class="owl-prev"><img src="images/icons/icons_arrow-left.svg" alt="Previous" /></button>',
+                    '<button class="owl-next"><img src="images/icons/icons_arrow-right.svg" alt="Next" /></button>',
+                ],
+                responsive: {
+                    0: {
+                        items: 3,
+                    },
+                    600: {
+                        items: 4,
+                    },
+                    1000: {
+                        items: 7,
+                    },
+                },
+            });
             $(".owl-carousel").owlCarousel({
                 loop: true,
                 margin: 20,
@@ -1578,6 +1632,8 @@
                     },
                 },
             });
+
+
         });
     </script>
 </body>
