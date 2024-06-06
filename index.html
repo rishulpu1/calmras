@@ -118,7 +118,7 @@
         <!-- Categories -->
         <section class="container _categories mt-3">
             <div
-                class="d-flex flex-column flex-lg-row justify-content-md-center py-4 gap-3 gap-xl-5 _categories_box-cont">
+                class="owl-carousel owl-theme cat-carousel _categories_box-cont mb-3">
                 <div class="_categories_box">
                     <a href="#" class="text-center">
                         <img src="./images/massagers.png" alt="Massagers" />
@@ -1583,6 +1583,27 @@
                     },
                     1000: {
                         items: 7,
+                    },
+                },
+            });
+            $(".cat-carousel").owlCarousel({
+                loop: false,
+                margin: 20,
+                nav: false,
+                dots: false,
+                navText: [
+                    '<button class="owl-prev"><img src="images/icons/icons_arrow-left.svg" alt="Previous" /></button>',
+                    '<button class="owl-next"><img src="images/icons/icons_arrow-right.svg" alt="Next" /></button>',
+                ],
+                responsive: {
+                    0: {
+                        items: 3,
+                    },
+                    600: {
+                        items: 4,
+                    },
+                    1000: {
+                        items: 6,
                     },
                 },
             });
