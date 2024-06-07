@@ -781,6 +781,23 @@ tbody td._feat {
 .brands .owl-nav button button:hover {
   background: transparent !important;
 }
+#brands-carousel .owl-nav {
+	display: none;
+}
+.offer-bar {
+	padding: 10px 0;
+	background-image: linear-gradient(to left, var(--secondaryColor), var(--primaryColor));
+}
+.offer-bar a {
+	text-decoration: navajowhite;
+	color: #fff;
+	font-size: 14px;
+	display: inline-flex;
+	gap: 10px;
+}
+.product-card .reviews {
+	align-items: center;
+}
 /* Responsive */
 @media (max-width: 1400px) {
   .promise-box.promise3 {
@@ -926,8 +943,20 @@ tbody td._feat {
   #navbarToggle > li > a {
     color: #fff !important;
   }
+  .mob-nav-cont {
+    justify-content: space-between;
+  }
+  .mob-nav {
+    padding-top: 20px;
+  }
+  .mob-search-acc {
+    display: flex;
+  }
 }
 @media (max-width: 768px) {
+  body{
+    overflow-x: hidden;
+  }
   .under-19 {
     padding-bottom: 20px;
   }
@@ -970,6 +999,10 @@ tbody td._feat {
   ._stars img {
     height: 10px;
   }
+  .btn.btn-lg,.btn-primary {
+    padding: 5px 10px;
+    font-size: 15px;
+  }
 }
 @media (max-width: 580px) {
   ._banner {
@@ -988,4 +1021,5 @@ tbody td._feat {
     top: 8px;
     position: relative;
   }
+  .review-txt{display: none;}
 }
