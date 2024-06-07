@@ -961,6 +961,15 @@ tbody td._feat {
   .how-we-do .item-box {
     margin-bottom: 20px;
   }
+  h5.product-title {
+    font-size: 16px;
+  }
+  .product-excerpt {
+    font-size: 12px;
+  }
+  ._stars img {
+    height: 10px;
+  }
 }
 @media (max-width: 580px) {
   ._banner {
