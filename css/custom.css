@@ -908,11 +908,11 @@ tbody td._feat {
   }
   .couples-txt {
     width: 100%;
-    margin: 40px;
+    margin: 40px 0;
     text-align: center;
     padding: 10px;
   }
-  .couples-cont .inner-div {
+  .couples-cont.inner-div {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
